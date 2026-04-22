@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "/src/components/Home/Home.jsx";
-import Navbar from "/src/components/Navbar/navbar.jsx";
-import DetailsProducts from "/src/components/DetailsProducts/DetailsProducts.jsx";
-import { CartProvider } from "/src/components/CartContext/CartContext.jsx";
-import Cart from "/src/components/Cart/Cart.jsx";
+import Home from "./components/Home/Home.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import DetailsProducts from "./components/DetailsProducts/DetailsProducts.jsx";
+import { CartProvider } from "./components/CartContext/CartContext.jsx";
+import Cart from "./components/Cart/Cart.jsx";
 
 
 function App() {
